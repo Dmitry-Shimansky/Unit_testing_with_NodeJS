@@ -1,0 +1,3 @@
+node-modules
+.nyc_output
+coverage

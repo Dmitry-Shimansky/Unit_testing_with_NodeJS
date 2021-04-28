@@ -1,0 +1,176 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-04-27T10:23:42.325Z",
+    "end": "2021-04-27T10:23:42.334Z",
+    "duration": 9,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "da669b34-0316-46dc-bf98-030ee1609312",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c0ef9330-5a61-47d8-bb57-723845842c55",
+          "title": "isNumberEven positive scenarios",
+          "fullFile": "C:\\Users\\Dmitry_Shimansky1\\WebstormProjects\\Unit testing with NodeJS\\test\\specs\\isNumberEve.spec.js",
+          "file": "\\test\\specs\\isNumberEve.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook",
+              "fullTitle": "isNumberEven positive scenarios \"before each\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "validator = new NumbersValidator();",
+              "err": {},
+              "uuid": "d635eb8d-acf7-49d2-b525-bb3de3fc988c",
+              "parentUUID": "c0ef9330-5a61-47d8-bb57-723845842c55",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook",
+              "fullTitle": "isNumberEven positive scenarios \"after each\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "validator = null;",
+              "err": {},
+              "uuid": "3b1f9d13-2011-475f-9765-187f07c6388d",
+              "parentUUID": "c0ef9330-5a61-47d8-bb57-723845842c55",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "should return true if number is even",
+              "fullTitle": "isNumberEven positive scenarios should return true if number is even",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(validator.isNumberEven(4)).to.be.equal(true);",
+              "err": {},
+              "uuid": "0ee09218-acc9-40b2-9ce4-76ca5ceb7ce0",
+              "parentUUID": "c0ef9330-5a61-47d8-bb57-723845842c55",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return false if number is odd",
+              "fullTitle": "isNumberEven positive scenarios should return false if number is odd",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(validator.isNumberEven(5)).to.be.equal(false);",
+              "err": {},
+              "uuid": "9ae8b004-7e77-45bc-9892-aa8550a9acd7",
+              "parentUUID": "c0ef9330-5a61-47d8-bb57-723845842c55",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "chai test",
+              "fullTitle": "isNumberEven positive scenarios chai test",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(5).to.be.below(6);",
+              "err": {},
+              "uuid": "e9169dfa-496e-4ff1-9ce1-434a1f6a53e2",
+              "parentUUID": "c0ef9330-5a61-47d8-bb57-723845842c55",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0ee09218-acc9-40b2-9ce4-76ca5ceb7ce0",
+            "9ae8b004-7e77-45bc-9892-aa8550a9acd7",
+            "e9169dfa-496e-4ff1-9ce1-434a1f6a53e2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "5.0.0"
+    },
+    "marge": {
+      "options": null,
+      "version": "4.1.0"
+    }
+  }
+}
